@@ -1,0 +1,20 @@
+{
+"name": "vulnerable-sca-sample",
+"version": "1.0.0",
+"description": "Sample project with intentionally out-of-date and vulnerable dependencies for SCA testing",
+"main": "index.js",
+"scripts": {
+"start": "node index.js",
+"test": "mocha"
+},
+"dependencies": {
+"express": "4.21.0",
+"axios": "1.7.7"
+},
+"devDependencies": {
+"mocha": "2.5.3",
+"chai": "3.5.0"
+},
+"author": "",
+"license": "ISC"
+}
